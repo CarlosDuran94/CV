@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aqua;
+    
+    width: 100vw;
+    height: 100vh;
+}
+
+.foto{
+    border-radius: 50%;
+    width: 200px;
+    border-style: solid;
+    border-width: 5px;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+    background-color: red;
+    background: linear-gradient(#e66465, #9198e5)
+}
+
+.lado_izquierdo{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    
+    
+
+}
+
+.lado_derecho{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    
+    width: 70%;
+}
+
+
+
+main{
+    display: flex;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
